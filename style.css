@@ -11,7 +11,7 @@ body {
 
 #keyboard {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 横3列にする場合 */
+  grid-template-columns: repeat(1, 1fr); /* 横3列にする場合 */
   gap: 10px;
   padding: 20px;
   max-width: 100%;      /* ← 画面幅いっぱいに */
