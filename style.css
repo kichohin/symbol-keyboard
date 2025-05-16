@@ -10,13 +10,14 @@ body {
 }
 
 #keyboard {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 12px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background: #f8f8f8;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 横3列にする場合 */
+  gap: 10px;
+  padding: 20px;
+  max-width: 100%;      /* ← 画面幅いっぱいに */
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 button {
